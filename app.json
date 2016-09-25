@@ -1,0 +1,24 @@
+[
+  {
+    "name"              : "node-app",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "production", // tell the client we're in production environment
+      "RPC_HOST"        : "localhost", // elementrem JSON-RPC host
+      "RPC_PORT"        : "7075", // elementrem JSON-RPC port
+      "LISTENING_PORT"  : "30707", // elementrem  listening port (only used for display)
+      "INSTANCE_NAME"   : "", // whatever you wish to name your node
+      "CONTACT_DETAILS" : "", // add your contact details here if you wish (email/skype)
+      "WS_SERVER"       : "http://www.elementrem.info/", 
+      "WS_SECRET"       : "j39dKL28qNs9",
+      "VERBOSITY"       : 2 // Set the verbosity (0 = silent, 1 = error, warn, 2 = error, warn, info, success, 3 = all logs)
+    }
+  }
+]
