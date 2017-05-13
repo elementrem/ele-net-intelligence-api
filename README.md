@@ -41,7 +41,7 @@ Then edit the app.json file in it to configure for your node:
       "INSTANCE_NAME"   : "", // whatever you wish to name your node
       "CONTACT_DETAILS" : "", // add your contact details here if you wish (email/skype)
       "WS_SERVER"       : "http://www.elementrem.info/", 
-      "WS_SECRET"       : "j39dKL28qNs9",
+      "WS_SECRET"       : "j39skdlq92k",
       "VERBOSITY"       : 2 // Set the verbosity (0 = silent, 1 = error, warn, 2 = error, warn, info, success, 3 = all logs)
     }
   }
